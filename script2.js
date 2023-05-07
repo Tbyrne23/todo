@@ -25,3 +25,9 @@ var tasks = [
     var ul = document.getElementById("todolist");
     ul.remove()
   }
+var clicks = 0;
+
+function onClick() {
+  clicks += 1;
+  document.getElementById("clicks").innerHTML = clicks;
+};
