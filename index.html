@@ -5,14 +5,26 @@
   </head>
   <body>
     <h1>To-Do List</h1>
+
+    
     <ul id="todolist">
       <!-- Tasks will be added dynamically here -->
     </ul>
-    <button onclick="addTask();onClick()">Add Random Task</button>
-    
-    <button onclick="removeTask()">Remove Random Task</button>
+    <button onclick="addTask(); incrementClick();">Add Random Task</button>
+    <button onclick="removeTask(); resetCounter();">Remove Random Task</button>
     <script type="text/javascript" src="script2.js">
-    <p>Clicks: <a id="clicks">0</a></p>
+
     </script>
   </body>
+  <div>
+    <center>
+      <h3 id="counter-label">0</h3>
+    </center>
+  </div>
+  <center>
+    <div>
+      
+      
+    </div>
+  </center>
 </html>
